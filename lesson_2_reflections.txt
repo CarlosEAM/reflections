@@ -12,3 +12,41 @@ next commit. It doesn't include all files but the ones you put in there and the 
 directory is the current location you are within the filesystem unlike the repository which
 is the grouping of files within a working directory however it need not be all the files within
 the working directory.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Use the commang 'git diff --staged' to check the difference between the last commit and the files
+inside the staging area. Check the differences and make a decision on whether it is a logical change.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you want to make variations of the project without messing with it, you know making experiments on the side 
+which are not part of the original idea but could be, in the future. One is the production branch and the others are 
+the experimental branches. Branches help keep this two apart while you keep working on the original porject and 
+testing out the other idea/s without affecting each other.
+
+
+How do the diagrams help you visualize the branch structure?
+
+	Drawing the diagram allows me to visualise how branching works in Git. I can now see the flow of the commits and 
+branching. I now understand the flow of git which will help with the development.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	When two branches are merge they become a stronger, longer unit which has a reference to both parents giving it
+access to the commits from each and the lastest commit becomes the tip of the branch. The diagram is done in this 
+way to give you a netter understanding of what is happening within Git as it is not a single linear timeline.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros:
+	- Automatic merging safes a lot of checking time. You don't have to go through the commit looking for the differences.
+	- Auto is less like to human error.
+
+	Cons:
+	- Manual is slow.
+	- Prone to human error.
