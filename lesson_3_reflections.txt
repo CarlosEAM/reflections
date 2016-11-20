@@ -1,1 +1,12 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+	- When you are working in a group
+	- Or if you want to make your project public so the community can build it.
+	These are times when creating a remote repository would come in quite handy.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	- It would take control away from you. If someone is working a project locally and then Git pull the latest remote repo
+	then it can create a real mess because the lcoal repo will now have new parts that werent put there by the person working on
+	this version.
