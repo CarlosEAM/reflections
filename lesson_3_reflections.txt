@@ -23,3 +23,32 @@ Describe the differences between forks, clones, and branches. When would you use
 		- If you want to make a copy of someones repo on your local computer then use CLONE
 		- If you are creating a repository on Github and want to upload then you CLONE 'git push'
 		- If you sant to experiement with different features or ideas without messing with the master branch then you create BRANCHES.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	- The local remote is a copy of the remotely remote which can be downloaded by any individual therefore having a copy
+	of the last known state of this remote would let Git know what commits have been made locally in reference to its latest pull. 
+	With this information Git can check against the remotely remote and see what, if any, are the differences and allow you to 
+	decide if you want to pull the remote or fetch it. Thus making the collaboration process less messy.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	- Without Git or GitHub it is quite difficult to collaborate. I don't know of any other programs able to do anything similar to Git.
+	What I used to do is use Google Drive, OneDrive or DropBox for collaboration work since this services can run on the cloud with 
+	the ability to store the files locally and online however keeping track of changes is the most difficult part and it is
+	time consuming.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	- I think there are two occations in which making changes in a separate branches would be a better idea.
+		1. When collaborating because you don't want your changes to affect the master branch before the rest of the community have
+		a change to go through the changes and agree on adding them to the project avoiding conflicts.
+		2. When you want to try out a new feature or idea but you don't want the master to be affected until you are happy with
+		the results.
+	- With my current knowledge I would say working directly on the master branch benefits the user because all changes are there
+	straight away and there is no need to keep an eye on branches.
+	- Creatingn a separate branch lets you add features, ideas, fix errors in code or change it up without altering the master. They are 
+	beneficial when using GitHubs 'pull requests' feature.
